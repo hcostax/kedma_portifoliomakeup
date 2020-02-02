@@ -31,7 +31,7 @@ library(DiagrammeR)
 
 layout: true
   
-<div class="my-footer"><span>Psicologia 3º Semestre - UFMT  | Psicologia Social - Prof: Alessandro Vinicius de Paula  |  e-mail: kedmathayktps@gmail.com</span></div>
+<div class="my-footer"><span>Psicologia 3º Semestre - UFMT  | Psicologia Social - Prof: Alessandro Vinicius de Paula  |  e-mail: kedmathayktps@gmail.com | link do slide online: https://bit.ly/31i4gjG </span></div>
 
 <!-- this adds the link footer to all slides, depends on my-footer class in css-->
 
@@ -316,16 +316,24 @@ class: middle
 
 
 
-.center[
+.pull-left[
 
 # Agradecimentos
 
-```{r, out.width="80%", echo=FALSE}
+```{r, out.width="100%", echo=FALSE}
 knitr::include_graphics("https://media1.giphy.com/media/3oz8xIsloV7zOmt81G/giphy.gif")
 ```
 
 ]
 
+.pull-right[
 
+#### **Encontrem meu trabalho online**:
 
+  - Repositório do GitHub desta apresentação:
+    - [kedmathay/kedma_portifoliomakeup](https://github.com/kedmathay/kedma_portifoliomakeup)
+    
+  - Link do Slide Online:
+    - [https://bit.ly/31i4gjG](https://bit.ly/31i4gjG)
 
+]
